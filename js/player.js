@@ -3,12 +3,12 @@ class Player {
         this.gameScreen = gameScreen;
         this.width = width;
         this.height = height;
-        this.player = new Player(this.gameScreen, 0, 0, 100, 40);
+        this.player = new Player(this.gameScreen, 0, 0, 42, 73);
         this.directionX = 0;
         this.directionY = 0;
         this.element = document.createElement('img');
-        
-        this.element.src = "";
+
+        this.element.src = "../";
         this.elementstyle.position = "absolute";
         this.element.style.width = `${this.width}px`;
         this.element.style.height = `${this.height}px`;
@@ -19,7 +19,7 @@ class Player {
 
     };
 
-    move() {};
+    move() { };
 
-    updatePosition() {}
+    updatePosition() { }
 }

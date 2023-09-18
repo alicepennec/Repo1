@@ -4,8 +4,8 @@ class Game {
     this.gameScreen = document.getElementById('game-screen')
     this.gameEndScreen = document.getElementById('game-end')
     this.player = null
-    this.height = 500
-    this.width = 1000
+    this.height = 643
+    this.width = 960
     this.score = 0
     this.gameIsOver = false
 

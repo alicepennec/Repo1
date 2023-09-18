@@ -41,8 +41,9 @@ body {
     position: relative;
     background-image: url(./images/fondecran.PNG);
     background-size: cover;
+    
   }
-  
+
   #game-end {
     display: none;
   }
@@ -51,11 +52,7 @@ body {
     font-size: 18px;
     font-family: "Verdana";
   }
-  
-  .logo-img {
-    width: 350px;
-  }
-  
+    
   body button {
     font-size: 30px;
     background-color: #0e26b1;
