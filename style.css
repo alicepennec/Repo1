@@ -14,16 +14,16 @@ body {
   
   #game-container {
     display: flex;
-    flex-direction:column;
-    justify-content: left;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     padding-left: 0;
   }
 
   #score-box {
+    font-size: 20px;
     border: solid;
-    padding: 20px;
+    padding: 15px;
     border-radius: 5px;
     border-color: red;
   }
