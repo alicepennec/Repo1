@@ -12,26 +12,28 @@
 <body>
   <main>
     <div id="game-intro">
-      <h1>King of the Beach</h1>
-      <p>Come here and let's play beach volley!
+      <img id="logo" src="./images/logo2.png" alt="logo">
+      <p id="intro">The Guardians of the Galaxy are waiting for you! Groot is meeting Rocket, join them on the beach!
       </p>
-      <button id="start-button">Play</button>
-      <button id="instructions">Instructions</button>
-
+      <p>Use these keys to play with Rocket <br />
+        <img src="./images/ControlKeyWASD.png">
+      </p>
+      <p>Use these keys to play with Groot <br />
+        <img src="./images/ControlKeyIJKL.png">
+      </p>
+      <button id="start-button">Let's play</button>
     </div>
 
-    <div id="game-container">
+    <div id="game-screen">
       <div id="score-box">
-        <p>Score</p>
-        <p>Player 1 <span id="score1">0</span></p>
-        <p>Player 2 <span id="score2">0</span></p>
-      </div>
-      <div id="game-screen">
+        <p>Player 2 <span id="score2">0</span> Score Player 1 <span id="score1">0</span></p>
       </div>
     </div>
 
     <div id="game-end">
       <h1>Game Over</h1>
+      <img id="groot-victory" src="images/groot-victory.png" alt="grootlogo">
+      <img id="rocket-victory" src="images/rocket-victory.png" alt="rocketlogo">
       <button id="restart-button">Play again</button>
     </div>
   </main>
