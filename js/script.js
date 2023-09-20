@@ -12,6 +12,9 @@ window.addEventListener('load', () => {
     startButton.addEventListener('click', function () {
         startGame()
     })
+    restartButton.addEventListener('click', function () {
+        location.reload()
+    })
 
     // player 1
     document.addEventListener('keydown', event => {
@@ -61,9 +64,6 @@ window.addEventListener('load', () => {
 
     })
 
-    /*restartButton.addEventListener('click', function() {
-        game.player.element.remove()
-        startGame()
-    })*/
+
 
 })

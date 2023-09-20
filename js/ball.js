@@ -2,14 +2,16 @@ class Ball {
     constructor(gameScreen, left, top, width, height) {
         this.gameScreen = gameScreen;
         this.left = left;
+        this.originalLeft = left;
         this.top = top;
+        this.originalTop = top;
         this.width = width;
         this.height = height;
         this.directionX = -1;
         this.directionY = 0;
         this.ball = document.createElement('img');
 
-        this.ball.src = './images/ballon.png'
+        this.ball.src = '../images/ballon.png'
         this.ball.style.position = "absolute";
         this.ball.style.width = `${this.width}px`;
         this.ball.style.height = `${this.height}px`;
