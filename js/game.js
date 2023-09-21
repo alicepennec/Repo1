@@ -4,7 +4,7 @@ class Game {
     this.gameScreen = document.getElementById('game-screen')
     this.gameEndScreen = document.getElementById('game-end')
     this.player = new Player(this.gameScreen, 720, 510, 100, 170);
-    this.player2 = new Player(this.gameScreen, 120, 510, 120, 170, true);
+    this.player2 = new Player(this.gameScreen, 120, 500, 120, 170, true);
     this.ball = new Ball(this.gameScreen, 720, 400, 60, 60);
     this.height = 640
     this.width = 960
@@ -73,7 +73,7 @@ class Game {
       this.ball.directionX = this.ball.directionX * -1
       this.ball.directionY = -3
       setTimeout(() => {
-        this.ball.directionY = 0.8
+        this.ball.directionY = 1.5
       }, 700)
     }
 
@@ -81,7 +81,7 @@ class Game {
       this.ball.directionX = this.ball.directionX * -1
       this.ball.directionY = -3
       setTimeout(() => {
-        this.ball.directionY = 0.8
+        this.ball.directionY = 1.5
       }, 700)
     }
 
