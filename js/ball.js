@@ -11,7 +11,7 @@ class Ball {
         this.directionY = 0;
         this.ball = document.createElement('img');
 
-        this.ball.src = '../images/ballon.png'
+        this.ball.src = '/images/ballon.png'
         this.ball.style.position = "absolute";
         this.ball.style.width = `${this.width}px`;
         this.ball.style.height = `${this.height}px`;

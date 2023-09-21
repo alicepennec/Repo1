@@ -16,7 +16,7 @@ class Player {
         this.element = document.createElement('img');
 
         if (isPlayer2) {
-            this.element.src = "../images/rocket.png";
+            this.element.src = "./images/rocket.png";
         } else {
             this.element.src = "./images/groot.png";
         }
