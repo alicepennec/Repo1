@@ -19,7 +19,6 @@ window.addEventListener('load', () => {
 
     // player 1
     document.addEventListener('keydown', event => {
-        console.log(event)
         if (event.code === 'KeyL') {
             game.player.directionX = 1
         } else if (event.code === 'KeyJ') {
@@ -43,7 +42,6 @@ window.addEventListener('load', () => {
 
     // player 2
     document.addEventListener('keydown', event => {
-        console.log(event)
         if (event.code === 'KeyD') {
             game.player2.directionX = 1
         } else if (event.code === 'KeyA') {
