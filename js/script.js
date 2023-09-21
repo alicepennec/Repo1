@@ -7,6 +7,7 @@ window.addEventListener('load', () => {
     function startGame() {
         game = new Game()
         game.start()
+
     }
 
     startButton.addEventListener('click', function () {
