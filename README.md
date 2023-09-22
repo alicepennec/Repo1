@@ -5,17 +5,12 @@
 Kings of the galaxy is a volleyball game with two players. The game starts when a player jumps to kick the ball to the opposite direction. If the ball touches the floor, the opponent get one point. The game ends when a player reaches 3 points.
 
 ## MVP
-Minimum valuable properties that make my game works are the following:
 - game has a main character that moves horizontally and vertically by jumping
-- ball is moving from one side to the the other one
+- ball is moving from one side to the other one
 - player has to kick the ball to start the game
+- if the ball touches the floor the point goes to a specific player
 - first player reaching 3 points wins
-
-
-- a win/lose game
-- 3 different screens : introduction screen / game screen / end screen
 - restart option (loop)
-- Javascript language : basic Javascript, Classes, Document Object Model
 
 ## Backlog
 - ~~create two different screens depending on the winner~~
@@ -74,6 +69,22 @@ List of classes and methods
 
 ## Task
 List of tasks in order of priority
+- main - buildDOM
+- main - buildStartScreen
+- main - addEventListener
+- main - buildGameScreen
+- game - addEventListener
+- player - draw
+- player - move
+- player - updatePosition
+- ball - draw
+- ball - move
+- ball - updatePosition
+- game - addHit
+- game - addScore
+- game - startLoop
+- game - checkCollision
+- game - buildGameEndScreen
 
 ## Links
 
